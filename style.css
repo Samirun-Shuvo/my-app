@@ -1,3 +1,89 @@
-.nav-right{
-    text-align: right;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 10px;
+}
+.easybuy-con {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: rgb(48, 54, 54);
+}
+.easybuy-con span{
+    color: #88ff00;
+
+}
+.col-md-6 p {
+    color: rgb(60, 30, 75);
+    margin-left: 30px;
+    font-size: 20px;
+}
+.easybuyImg {
+    padding: 50px;
+}
+.btn {
+    padding: 5px;
+    height: 50px;
+    width: 130px;
+    background-color: deepskyblue;
+}
+.btn:hover {
+    background-color: rgb(61, 167, 48);
+    color: rgb(197, 221, 233);
+}
+
+.menu{
+    font-size: 24px;
+}
+.menu:hover{
+    font-size: 23px;
+
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.conhead{
+    color:rebeccapurple ;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.col {
+    padding: 20px;
+}
+.card {
+    padding: 10px;
+}
+.card-body{
+    padding: 5px;
+    margin-left: 20px;
+}
+.card-img-top {
+    padding: 50px;
+}
+.card-title{
+    color: rgb(104, 98, 110);
+    font-size: 24px;
+    text-align: center;
+}
+.card-text{
+    color: rgb(67, 63, 71);
+    font-size: 15px;
+    text-align: center;
 }
