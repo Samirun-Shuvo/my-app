@@ -146,6 +146,7 @@ body{
 }
 .footboxtext b {
     font-size: 24px;
+    color: rgb(44, 44, 46);
 }
 .footboxicon {
     padding: 20px;
