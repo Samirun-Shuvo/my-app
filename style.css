@@ -59,7 +59,7 @@ body{
 }
 .conhead{
     color:rebeccapurple ;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -80,10 +80,80 @@ body{
 .card-title{
     color: rgb(104, 98, 110);
     font-size: 24px;
-    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid gray;
 }
 .card-text{
     color: rgb(67, 63, 71);
     font-size: 15px;
+    text-align: left;
+}
+.listimg-con{
+    margin-top: 60px;
+}
+.clearenceCon{
+    margin-top: 50px;
+}
+.discount-sec{
+    background-color: rgb(231, 210, 210);
+}
+.discount-text {
     text-align: center;
+    padding: 50px;
+}
+.circle-text {
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.off-con{
+ color: rgb(71, 71, 65);
+ font-size: 30px;
+}
+.conheadtext{
+    text-align: center;
+    color: darkslategray;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 30px;
+}
+.footleft{
+    background-color: rgb(148, 118, 118);
+}
+.footright{
+    background-color: rgb(173, 136, 136);
+}
+.foothead{
+    text-align: center;
+    font-weight: bold;
+    color: teal;
+}
+.footheadtext{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footbox {
+    background-color: tomato;
+    display: flex;
+    margin: 15px;
+    border-radius: 20px;
+}
+.footboxtext {
+    padding: 30px;
+}
+.footboxtext b {
+    font-size: 24px;
+}
+.footboxicon {
+    padding: 20px;
+    float: right;
+    font-size: 100px;
+}
+.madeby{
+    text-align: center;
+    padding: 20px;
+    color: crimson;
 }
